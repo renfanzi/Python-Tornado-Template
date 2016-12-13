@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-settings = {}
+import os
+
+settings = {
+    'static_path': 'static',
+    'static_url_prefix': '/static/',
+}
 
 listen = 8888

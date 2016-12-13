@@ -5,4 +5,7 @@ import tornado.web
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("hello")
+        # self.write("hello")
+        self.render('template/test.html')
+
+
