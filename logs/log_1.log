@@ -1,3 +1,4 @@
 [2016-12-16 14:09:25,042 - dudu]WARNING:  ddddd - test_view.py:14
 [2016-12-16 14:14:57,482 - dudu]WARNING:  ddddd - test_view.py:14
 [2016-12-16 14:15:13,066 - dudu]WARNING:  ddddd - test_view.py:14
+[2016-12-16 14:42:10,338 - app.project_server.web_services.test_view]WARNING:  ddddd - test_view.py:14

@@ -9,7 +9,8 @@ class MainHandler(tornado.web.RequestHandler):
         # self.write("hello")
         # logging.WARNING("this is my fasdf")
         """定义自己的日志系列，触发条件写入日志"""
-        self.logger = logging.getLogger("dudu")
+        # self.logger = logging.getLogger("dudu")
+        self.logger = logging.getLogger(__name__)
         if True:
             self.logger.warning("ddddd")
         self.render('template/test.html')
