@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
+"""
+根据源码，扩展访问tornado的include的函数，也是关键
+"""
+
 from importlib import import_module
 
 def include(module):

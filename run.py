@@ -19,9 +19,9 @@ tornado.web.RequestHandler.write_error = write_error
 
 if __name__ == "__main__":
     #1.
-    # http_server = tornado.httpserver.HTTPServer(application)
-    # http_server.listen(listen)
-    # tornado.ioloop.IOLoop.instance().start()
+    http_server = tornado.httpserver.HTTPServer(application)
+    http_server.listen(listen)
+    tornado.ioloop.IOLoop.instance().start()
     #3.
     # sockets = tornado.netutil.bind_sockets(8888)
     # tornado.process.fork_processes(5)
@@ -30,7 +30,7 @@ if __name__ == "__main__":
     # tornado.ioloop.IOLoop.instance().start()
 
     #2.
-    server = HTTPServer(application)
-    server.bind(8888)
-    server.start(4) #Forks multiple sub-process
-    tornado.ioloop.IOLoop.current().start()
+    # server = HTTPServer(application)
+    # server.bind(8888)
+    # server.start(4) #Forks multiple sub-process
+    # tornado.ioloop.IOLoop.current().start()
