@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 import tornado.web
 import logging
+from app.logs.log_mail import log_mail
 
 
 class MainHandler(tornado.web.RequestHandler):
@@ -12,7 +13,9 @@ class MainHandler(tornado.web.RequestHandler):
         # self.logger = logging.getLogger("dudu")
         self.logger = logging.getLogger(__name__)
         if True:
-            self.logger.warning("ddddd")
+            self.logger.warning("ddddd")    #光写日志不发邮件
+            log_mail().log_mail("jjjj")     #继写日志又发邮件
+
         self.render('template/test.html')
 
 

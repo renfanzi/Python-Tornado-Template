@@ -2,3 +2,9 @@
 [2016-12-16 14:14:57,482 - dudu]WARNING:  ddddd - test_view.py:14
 [2016-12-16 14:15:13,066 - dudu]WARNING:  ddddd - test_view.py:14
 [2016-12-16 14:42:10,338 - app.project_server.web_services.test_view]WARNING:  ddddd - test_view.py:14
+[2016-12-16 18:20:44,088 - app.project_server.web_services.test_view]WARNING:  ddddd - test_view.py:16
+[2016-12-16 18:20:44,088 - root]ERROR:  ���� - log_mail.py:57
+[2016-12-16 18:20:48,582 - app.project_server.web_services.test_view]WARNING:  ddddd - test_view.py:16
+[2016-12-16 18:20:48,949 - root]ERROR:  ���� - log_mail.py:57
+[2016-12-16 18:24:12,002 - app.project_server.web_services.test_view]WARNING:  ddddd - test_view.py:16
+[2016-12-16 18:24:12,003 - root]ERROR:  jjjj - log_mail.py:57
