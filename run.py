@@ -7,12 +7,12 @@ from tornado.httpserver import HTTPServer
 import tornado.httpserver
 import tornado.ioloop
 import tornado.web
-from app.config import settings, listen
-from app.comm.util.include_url_model import url_wrapper, include
-from app.comm.util.write_error import write_error
+from config import settings, listen
+from comm.util.include_url_model import url_wrapper, include
+from comm.util.write_error import write_error
 
 application = tornado.web.Application(url_wrapper([
-    (r"", include('app.project_server.web_services.urls')),
+    (r"", include('project_server.web_services.urls')),
 ]), **settings)
 
 tornado.web.RequestHandler.write_error = write_error

@@ -1,2 +1,5 @@
-tornado==4.4.2
-pymongo==3.4.0
+python-memcached==1.58
+redis==2.10.5
+
+
+

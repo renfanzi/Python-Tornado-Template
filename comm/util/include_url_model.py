@@ -7,10 +7,12 @@
 
 from importlib import import_module
 
+
 def include(module):
     res = import_module(module)
     urls = getattr(res, 'urls', res)
     return urls
+
 
 def url_wrapper(urls):
     wrapper_list = []

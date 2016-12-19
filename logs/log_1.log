@@ -8,3 +8,4 @@
 [2016-12-16 18:20:48,949 - root]ERROR:  ���� - log_mail.py:57
 [2016-12-16 18:24:12,002 - app.project_server.web_services.test_view]WARNING:  ddddd - test_view.py:16
 [2016-12-16 18:24:12,003 - root]ERROR:  jjjj - log_mail.py:57
+[2016-12-17 23:32:06,519 - project_server.web_services.test_view]ERROR:  ddddd - test_view.py:28
